@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Notifikasi Antrian</title>
+</head>
+<body>
+
+<h2>🔔 Panggil Antrian</h2>
+
+<button onclick="bunyi()">Panggil</button>
+
+<audio id="bell" preload="auto">
+  <source src="mixkit-airport-announcement-ding-1569.wav" type="audio/wav">
+</audio>
+
+<script>
+function bunyi() {
+  document.getElementById("bell").play();
+}
+</script>
+
+</body>
+</html>
